@@ -27,6 +27,23 @@
                 <!-- Button -->
                 <!-- <a href="#" class="hidden md:block p-3 px-6 pt-2 text-white bg-orange-500 rounded-full baseline hover:bg-darkGrayishBlue font-bold"
                 >Get Started</a> -->
+                <!-- Hamburger Icon -->
+                <button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
+                    <span class="hamburger-top"></span>
+                    <span class="hamburger-middle"></span>
+                    <span class="hamburger-bottom"></span>
+                </button>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div class="md:hidden">
+                <div id="menu" class="absolute hidden flex-col items-center self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
+                    <a href="Home" class="">Home</a>
+                    <a href="About" class="">About</a>
+                    <a href="Menu" class="">Menu</a>
+                    <a href="Photos" class="">Photos</a>
+                    <a href="Community" class="">Community</a>
+                </div>
             </div>
         </nav>
 
@@ -185,5 +202,21 @@
                 </div>
             </div>
         </section>
+
+        <!-- Footer -->
+        <footer class="bg-volsOrange">
+            <!-- Flex Container -->
+            <div class="container flex flex-col-reverse justify-between px-6 py-10 mx-auto space-y-8 md:flex-row md:space-y-0">
+                <!-- Logo and Social Links -->
+                <div class="flex flex-col-reverse items-center justify-between space-y-12 md:flex-col md:space-y-0 md:items-start">
+                    <!-- Logo -->
+                    <div>
+                        <img src="images/logo.png" class="h-8" alt="">
+                    </div>                    
+                </div>
+            </div>
+        </footer>
+
+        <script src="js/script.js"></script>
     </body>
 </html>
